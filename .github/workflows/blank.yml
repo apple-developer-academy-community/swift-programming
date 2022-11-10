@@ -1,0 +1,21 @@
+# 모든 경우에 대해 프로젝트에 태깅하도록 합니다.
+name: Adds all issues to project board
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          project-url: https://github.com/orgs/apple-developer-academy-community/projects/2
+          github-token: ${{ secrets.SWIFT_BOOK_TOKEN }}
+          # A GitHub personal access token with write access to the project
+#           labeled: needs-triage
+          # The behavior of the labels filter, AND to match all labels, OR to match any label, NOT to exclude any listed label (default is OR)
+#           label-operator: NOT
