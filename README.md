@@ -29,7 +29,7 @@
 5. String
 6. Any, AnyObject와 null
 
-#### Chapter4. 데이터 타입 고급
+#### [Chapter4. 데이터 타입 고급](https://github.com/apple-developer-academy-community/swift-programming/blob/main/Day04~Day06/Day04.md)
 
 1. 데이터 타입 안심
 2. 타입 별칭
@@ -37,13 +37,13 @@
 4. 컬렉션형
 5. 열거형
 
-#### Chapter5. 연산자
+#### [Chapter5. 연산자](https://github.com/apple-developer-academy-community/swift-programming/blob/main/Day04~Day06/Day05.md)
 
 1. 연산자의 종류
 2. 연산자 우선순위와 결합방향
 3. 사용자 정의 연산자
 
-#### Chapter6. 흐름 제어
+#### [Chapter6. 흐름 제어](https://github.com/apple-developer-academy-community/swift-programming/blob/main/Day04~Day06/Day06.md)
 
 1. 조건문
 2. 반복문
